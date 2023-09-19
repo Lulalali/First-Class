@@ -1,13 +1,26 @@
-
-
-
 body {
-    background-color: #ad2727;
-    color: #333333; 
+    background-color: #27ad5f;
+    color: #420ea3; 
     
-  }
   
-  .
+  
+  h1 {
+    color: #2e3a4b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ h6 {
+  color: #380b8d;
+  text-align: center;
+  margin-bottom: 10px;
+ }
+  h3 {
+    color: #da0d0d;
+    text-align: center;
+    margin-bottom: 15px;
+
+
+ }
   nav {
     height: 6000px;
     width: 200px;
@@ -16,7 +29,16 @@ body {
     line-height: 30px;
   }
   
- 
+ button {
+ font-size: 20px;
+
+ background-color: #fff;
+ padding: 20px 30px;
+ border-radius: 8px;
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+ }
   footer {
     text-align: center;
     margin-right: 200px;
@@ -24,14 +46,33 @@ body {
   
  
   #memeImage {
-    margin-right: 200px;
+    margin-right: 100px;
   }
+
+  parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
   
 
   header {
     text-align: center;
+
   }
- 
+}
+  
+  
+  
+  
+  
   
   
   
